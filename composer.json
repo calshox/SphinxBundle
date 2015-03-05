@@ -1,0 +1,30 @@
+{
+  "name" : "shox/sphinxbundle",
+  "description" : "Sphinx bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Carlos Vázquez",
+    "email" : "contacto.cvazquez@gmail.com"
+  }],
+  "keywords" : [
+    "sphinx client bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Shox\\SphinxBundle" : ""
+    }
+  },
+  "target-dir" : "Shox/SphinxBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.1-dev"
+    }
+  }
+}
